@@ -22,28 +22,44 @@
         <section id="home">
             <h2>Explore the World with Us</h2>
             <p>Discover amazing destinations, unique cultures, and unforgettable experiences.</p>
-        
-            <!-- Image Carousel -->
+        </section>
+        <section>
             <div class="carousel">
                 <img src="image1.jpg" class="carousel-image" alt="Image 1">
-                <img src="image2.jpg" class="carousel-image" alt="Image 2" style="display:none;">
-                <img src="image3.jpg" class="carousel-image" alt="Image 3" style="display:none;">
+                
             </div>
             <button id="prev">Previous</button>
             <button id="next">Next</button>
         </section>
-        
 
         <section id="destinations">
             <h2>Popular Destinations</h2>
             <div class="destination">
-                <h3>Paris, France</h3>
+                <h3 class="highlight">Paris, France</h3>
+                <img src="image4.jpg" class="destination-image" alt="Image 4">
                 <p>The city of lights offers stunning architecture, delicious cuisine, and rich history.</p>
             </div>
             <div class="destination">
-                <h3>Tokyo, Japan</h3>
+                <h3 class="highlight">Tokyo, Japan</h3>
+                <img src="image5.jpg" class="destination-image" alt="Image 5">
                 <p>Experience the vibrant city life, beautiful temples, and incredible food.</p>
             </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
         </section>
     </main>
 
